@@ -1,0 +1,12 @@
+/home/joseph/BlogLab/BlogLab.Models/obj/Debug/net7.0/BlogLab.Models.csproj.AssemblyReference.cache
+/home/joseph/BlogLab/BlogLab.Models/obj/Debug/net7.0/BlogLab.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/joseph/BlogLab/BlogLab.Models/obj/Debug/net7.0/BlogLab.Models.AssemblyInfoInputs.cache
+/home/joseph/BlogLab/BlogLab.Models/obj/Debug/net7.0/BlogLab.Models.AssemblyInfo.cs
+/home/joseph/BlogLab/BlogLab.Models/obj/Debug/net7.0/BlogLab.Models.csproj.CoreCompileInputs.cache
+/home/joseph/BlogLab/BlogLab.Models/bin/Debug/net7.0/BlogLab.Models.deps.json
+/home/joseph/BlogLab/BlogLab.Models/bin/Debug/net7.0/BlogLab.Models.dll
+/home/joseph/BlogLab/BlogLab.Models/bin/Debug/net7.0/BlogLab.Models.pdb
+/home/joseph/BlogLab/BlogLab.Models/obj/Debug/net7.0/BlogLab.Models.dll
+/home/joseph/BlogLab/BlogLab.Models/obj/Debug/net7.0/refint/BlogLab.Models.dll
+/home/joseph/BlogLab/BlogLab.Models/obj/Debug/net7.0/BlogLab.Models.pdb
+/home/joseph/BlogLab/BlogLab.Models/obj/Debug/net7.0/ref/BlogLab.Models.dll
