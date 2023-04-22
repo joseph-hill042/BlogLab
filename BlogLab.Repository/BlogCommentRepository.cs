@@ -112,6 +112,8 @@ namespace BlogLab.Repository
                 );
             }
 
+            newBlogCommentId = newBlogCommentId ?? blogCommentCreate.BlogCommentId;
+
             BlogComment blogComment = await GetAsync(newBlogCommentId.Value);
 
             return blogComment;
