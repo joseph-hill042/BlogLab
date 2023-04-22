@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/BlogLab.Models/BlogLab.Models.csproj",
+                "${workspaceFolder}/BlogLab.Web/BlogLab.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/BlogLab.Models/BlogLab.Models.csproj",
+                "${workspaceFolder}/BlogLab.Web/BlogLab.Web.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/BlogLab.Models/BlogLab.Models.csproj"
+                "${workspaceFolder}/BlogLab.Web/BlogLab.Web.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
