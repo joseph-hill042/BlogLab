@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "x2aSqt10TYi9ASoPu/iSV8T1FR2flzNHTvErKJaIlSv+N/Ipus2+h1Xb9dG7nFvmLq2044ZGWH5jjfmNn3CIwQ==",
+  "dgSpecHash": "f1TQoBDsdYhtNeK6vMNradhBi2jfQRIbwFqcarQIqQWgdmY8zFRFEthU0WCGANISgUFTc6bEqRKHsyJv4EE8UQ==",
   "success": true,
   "projectFilePath": "/home/joseph/BlogLab/BlogLab.Web/BlogLab.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/joseph/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.5/microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
+    "/home/joseph/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/joseph/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.1/microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "/home/joseph/.nuget/packages/microsoft.identitymodel.logging/6.15.1/microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "/home/joseph/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "/home/joseph/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "/home/joseph/.nuget/packages/microsoft.identitymodel.tokens/6.15.1/microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "/home/joseph/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "/home/joseph/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

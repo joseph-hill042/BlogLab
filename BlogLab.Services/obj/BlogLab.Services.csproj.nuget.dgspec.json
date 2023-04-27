@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/joseph/BlogLab/BlogLab.Services/BlogLab.Services.csproj": {}
+  },
+  "projects": {
+    "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj",
+        "projectName": "BlogLab.Models",
+        "projectPath": "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj",
+        "packagesPath": "/home/joseph/.nuget/packages/",
+        "outputPath": "/home/joseph/BlogLab/BlogLab.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joseph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joseph/BlogLab/BlogLab.Services/BlogLab.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joseph/BlogLab/BlogLab.Services/BlogLab.Services.csproj",
+        "projectName": "BlogLab.Services",
+        "projectPath": "/home/joseph/BlogLab/BlogLab.Services/BlogLab.Services.csproj",
+        "packagesPath": "/home/joseph/.nuget/packages/",
+        "outputPath": "/home/joseph/BlogLab/BlogLab.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joseph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj": {
+                "projectPath": "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.30.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.30.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
