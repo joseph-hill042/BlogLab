@@ -1,5 +1,0 @@
-/home/joseph/BlogLab/BlogLab.Repository/obj/Debug/net7.0/BlogLab.Repository.csproj.AssemblyReference.cache
-/home/joseph/BlogLab/BlogLab.Repository/obj/Debug/net7.0/BlogLab.Repository.GeneratedMSBuildEditorConfig.editorconfig
-/home/joseph/BlogLab/BlogLab.Repository/obj/Debug/net7.0/BlogLab.Repository.AssemblyInfoInputs.cache
-/home/joseph/BlogLab/BlogLab.Repository/obj/Debug/net7.0/BlogLab.Repository.AssemblyInfo.cs
-/home/joseph/BlogLab/BlogLab.Repository/obj/Debug/net7.0/BlogLab.Repository.csproj.CoreCompileInputs.cache
