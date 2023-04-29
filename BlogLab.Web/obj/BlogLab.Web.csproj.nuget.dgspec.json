@@ -4,14 +4,80 @@
     "/home/joseph/BlogLab/BlogLab.Web/BlogLab.Web.csproj": {}
   },
   "projects": {
-    "/home/joseph/BlogLab/BlogLab.Web/BlogLab.Web.csproj": {
+    "/home/joseph/BlogLab/BlogLab.Identity/BlogLab.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/joseph/BlogLab/BlogLab.Web/BlogLab.Web.csproj",
-        "projectName": "BlogLab.Web",
-        "projectPath": "/home/joseph/BlogLab/BlogLab.Web/BlogLab.Web.csproj",
+        "projectUniqueName": "/home/joseph/BlogLab/BlogLab.Identity/BlogLab.Identity.csproj",
+        "projectName": "BlogLab.Identity",
+        "projectPath": "/home/joseph/BlogLab/BlogLab.Identity/BlogLab.Identity.csproj",
         "packagesPath": "/home/joseph/.nuget/packages/",
-        "outputPath": "/home/joseph/BlogLab/BlogLab.Web/obj/",
+        "outputPath": "/home/joseph/BlogLab/BlogLab.Identity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joseph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj": {
+                "projectPath": "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj"
+              },
+              "/home/joseph/BlogLab/BlogLab.Repository/BlogLab.Repository.csproj": {
+                "projectPath": "/home/joseph/BlogLab/BlogLab.Repository/BlogLab.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj",
+        "projectName": "BlogLab.Models",
+        "projectPath": "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj",
+        "packagesPath": "/home/joseph/.nuget/packages/",
+        "outputPath": "/home/joseph/BlogLab/BlogLab.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/joseph/.nuget/NuGet/NuGet.Config"
@@ -38,6 +104,240 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joseph/BlogLab/BlogLab.Repository/BlogLab.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joseph/BlogLab/BlogLab.Repository/BlogLab.Repository.csproj",
+        "projectName": "BlogLab.Repository",
+        "projectPath": "/home/joseph/BlogLab/BlogLab.Repository/BlogLab.Repository.csproj",
+        "packagesPath": "/home/joseph/.nuget/packages/",
+        "outputPath": "/home/joseph/BlogLab/BlogLab.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joseph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj": {
+                "projectPath": "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joseph/BlogLab/BlogLab.Services/BlogLab.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joseph/BlogLab/BlogLab.Services/BlogLab.Services.csproj",
+        "projectName": "BlogLab.Services",
+        "projectPath": "/home/joseph/BlogLab/BlogLab.Services/BlogLab.Services.csproj",
+        "packagesPath": "/home/joseph/.nuget/packages/",
+        "outputPath": "/home/joseph/BlogLab/BlogLab.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joseph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj": {
+                "projectPath": "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.30.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.30.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joseph/BlogLab/BlogLab.Web/BlogLab.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joseph/BlogLab/BlogLab.Web/BlogLab.Web.csproj",
+        "projectName": "BlogLab.Web",
+        "projectPath": "/home/joseph/BlogLab/BlogLab.Web/BlogLab.Web.csproj",
+        "packagesPath": "/home/joseph/.nuget/packages/",
+        "outputPath": "/home/joseph/BlogLab/BlogLab.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joseph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/joseph/BlogLab/BlogLab.Identity/BlogLab.Identity.csproj": {
+                "projectPath": "/home/joseph/BlogLab/BlogLab.Identity/BlogLab.Identity.csproj"
+              },
+              "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj": {
+                "projectPath": "/home/joseph/BlogLab/BlogLab.Models/BlogLab.Models.csproj"
+              },
+              "/home/joseph/BlogLab/BlogLab.Repository/BlogLab.Repository.csproj": {
+                "projectPath": "/home/joseph/BlogLab/BlogLab.Repository/BlogLab.Repository.csproj"
+              },
+              "/home/joseph/BlogLab/BlogLab.Services/BlogLab.Services.csproj": {
+                "projectPath": "/home/joseph/BlogLab/BlogLab.Services/BlogLab.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[7.0.5, )"

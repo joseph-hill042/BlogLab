@@ -28,9 +28,8 @@ namespace BlogLab.Web
         {
             services.Configure<CloudinaryOptions>(Configuration.GetSection("CloudinaryOptions"));
 
-            // services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IPhotoService, PhotoService>();
-
             services.AddScoped<IBlogRepository, BlogRepository>();
             services.AddScoped<IBlogCommentRepository, BlogCommentRepository>();
             services.AddScoped<IAccountRepository, AccountRepository>();

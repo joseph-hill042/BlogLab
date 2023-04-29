@@ -1,4 +1,6 @@
-namespace Blog.Models.Account
+using Microsoft.IdentityModel.Tokens;
+
+namespace BlogLab.Models.Account
 {
     public class ApplicationUser
     {
@@ -6,6 +8,6 @@ namespace Blog.Models.Account
         public string UserName { get; set; }
         public string FullName { get; set; }
         public string Email { get; set; }
-        public string Token { get; set; }
+        public SecurityToken Token { get; set; }
     }
 }

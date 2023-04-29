@@ -1,9 +1,6 @@
 ﻿using BlogLab.Models.Account;
 using BlogLab.Repository;
 using Microsoft.AspNetCore.Identity;
-using System;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace BlogLab.Identity
 {
